@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkDotNet.Analyzer", "BenchmarkDotNet.Analyzer\BenchmarkDotNet.Analyzer.csproj", "{2B60C284-4615-4A03-A6E8-06C6453624CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkDotNet.Analyzer.CodeFixes", "BenchmarkDotNet.Analyzer.CodeFixes\BenchmarkDotNet.Analyzer.CodeFixes.csproj", "{BBA7487E-52A3-4179-B356-5E41D5CE6BA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkDotNet.Analyzer.Package", "BenchmarkDotNet.Analyzer.Package\BenchmarkDotNet.Analyzer.Package.csproj", "{011598A3-D883-4D4F-85E4-DFF8F0E0F2DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkDotNet.Analyzer.Test", "BenchmarkDotNet.Analyzer.Test\BenchmarkDotNet.Analyzer.Test.csproj", "{984832CD-6618-4F57-8969-4640867DB51D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkDotNet.Analyzer.Vsix", "BenchmarkDotNet.Analyzer.Vsix\BenchmarkDotNet.Analyzer.Vsix.csproj", "{F025D2A2-50B7-40DD-A8C3-1CA187E953F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B60C284-4615-4A03-A6E8-06C6453624CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B60C284-4615-4A03-A6E8-06C6453624CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B60C284-4615-4A03-A6E8-06C6453624CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B60C284-4615-4A03-A6E8-06C6453624CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA7487E-52A3-4179-B356-5E41D5CE6BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA7487E-52A3-4179-B356-5E41D5CE6BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA7487E-52A3-4179-B356-5E41D5CE6BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA7487E-52A3-4179-B356-5E41D5CE6BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011598A3-D883-4D4F-85E4-DFF8F0E0F2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011598A3-D883-4D4F-85E4-DFF8F0E0F2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011598A3-D883-4D4F-85E4-DFF8F0E0F2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011598A3-D883-4D4F-85E4-DFF8F0E0F2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984832CD-6618-4F57-8969-4640867DB51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984832CD-6618-4F57-8969-4640867DB51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984832CD-6618-4F57-8969-4640867DB51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984832CD-6618-4F57-8969-4640867DB51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F025D2A2-50B7-40DD-A8C3-1CA187E953F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F025D2A2-50B7-40DD-A8C3-1CA187E953F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F025D2A2-50B7-40DD-A8C3-1CA187E953F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F025D2A2-50B7-40DD-A8C3-1CA187E953F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAD1DFA1-D4BB-432E-A01B-97EB44F72C27}
+	EndGlobalSection
+EndGlobal
